@@ -252,7 +252,7 @@ def func_temp():
     URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY
     # HTTP request
     response = requests.get(URL)
-    # checking the status code of the request
+    # checking the status code of the requesttt
     if response.status_code == 200:
     # getting data in the json format
         data = response.json()
